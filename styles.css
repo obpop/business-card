@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    font-family: monospace;
+    font-size: 16px;
+
+}
+
+.avatar {
+    width: 110px;
+    border-radius: 10px;
+    border: #a4c3b2 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card {
+    width: 400px;
+
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #cce3de;
+    transition: background 0.5ms;
+    color: #22333b;
+    border-bottom: 6px solid #a4c3b2;
+    text-shadow: 0px 1px 1px #a4c3b2;
+    transition: transform 0.3s ease 0s;
+}
+
+.card:hover {
+    transform: translateY(+10px);
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
